@@ -26,7 +26,7 @@ distDNA <- dist.dna(fas, model = "K80")
 dist <- as.matrix(distDNA)
 
 ###~~~
-#Convert distance matrix into 3 cols: Seq1, Seq2, Dist
+#Convert pairwise distance matrix into 3 cols: Seq1, Seq2, Dist
 ###~~~
 OUT <- NULL
 for(i in 1:nrow(dist)){
